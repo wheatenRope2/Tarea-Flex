@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(18, 113, 197);
+}
+
+#contenedor{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+#contenedor2{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#agregar{
+    width: 100px;
+    height: 30px;
+    background-color: #25c90c;
+    border: 1px solid #000000;
+    color: #000000;
+    font-weight: bold;
+}
+
+#eliminar{
+    width: 100px;
+    height: 30px;
+    background-color: #e30808;
+    border: 1px solid #000000;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tarea{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color:#ffffff;
+    background-color: #5f0458;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: #0633ff;
+    border: 5px solid #f3f395;
+    text-align: center;
+}
